@@ -1,0 +1,19 @@
+**/__pycache__/
+**/.*
+**/*.egg
+**/*.so
+**/build/
+
+/*
+
+# all these effort to not track symlink
+!/config
+!/lib
+!/main.py
+!/.gitignore
+!/.gitmodules
+!/environment.yml
+!/README.md
+!/requirements.txt
+!/setup.sh
+!/thirdparty
